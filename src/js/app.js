@@ -8,3 +8,8 @@ window.addEventListener("DOMContentLoaded", () => {
     alert("💣");
   });
 });
+const element = document.querySelector("body");
+element.onclick = function () {
+  element.innerHTML =
+    "<article class='message'>Neshto1</article><article class='message'>Neshto1</article><article class='message'>Neshto1</article><article class='message'>Neshto1</article><article class='message'>Neshto1</article>";
+};
